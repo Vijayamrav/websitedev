@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+    <h1>Student Profile</h1>
+    <form>
+        
+        <label for="fname">firstname:</label>
+        <input type="text" id="fname" name="fname" required/>
+        <label for="lname">lastname:</label>
+        <input type="text" id="lname" name="lname" required/><br><br>
+        <label for="faname">Father's name:</label>
+        <input type="text" id="faname" name="faname" required/>
+        <label>Mother's name</label>
+        <input type="text" id="maname" name="maname" required/><br><br>
+        <label for="pwd">password:</label>
+        <input type="password" id="pwd" name="password" required/>
+        <label for="mail">Gmail:</label>
+        <input size="50" type="mail" id="mail" name="mail" required/><br><br>
+        <label for="mobile">mobile:</label>
+        <input type="tel" id="mobile" name="mobile" required/>
+        <label for="rno">roll no:</label>
+        <input type="text" id="rno" name="rno" required placeholder="1053-22-862-004"/>
+        <label for="dob">DOB:</label>
+        <input type="date" id="dob" name="dob" required/><br><br>
+        
+        <label for="address">present address:</label>
+        <input size="70px" type="text" id="address" name="address" required/><br><br>
+        <label for="gender">gender:</label>
+        <input type="radio" id="gender" name="gender"/>male
+        <input type="radio" id="gender" name="gender"/>female
+        <input type="radio" id="gender" name="gender"/>N/A<br><br>
+        <label for="upload">upload photo:</label>
+        <input type="file" id="upload" name="upload"/>
+        <p><b>select the fields your are interested in:</b></p>
+        
+        <input type="checkbox" id="sk" name="skills"/>java
+        <input type="checkbox" id="sk" name="skills"/>python
+        <input type="checkbox" id="sk" name="skills"/>frontend development<br>
+        <input type="checkbox" id="sk" name="skills"/>backend development
+        <input type="checkbox" id="sk" name="skills"/>data science
+        <input type="checkbox" id="sk" name="skills"/>data analyst<br>
+        <input type="checkbox" id="sk" name="skills"/>full stack developer
+        <input type="checkbox" id="sk" name="skills"/>HTML &  CSS
+        <input type="checkbox" id="sk" name="skills"/>javascript<br>
+        <input type="checkbox" id="sk" name="skills"/>Reactjs
+        <input type="checkbox" id="sk" name="skills"/>ML ENGINEERING
+        <input type="checkbox" id="sk" name="skills"/>Cloud computing<br>
+        <input type="checkbox" id="sk" name="skills"/>others<br><br>
+        <p><b>select your bachelor's or master's degree:</b></p>
+        <!-- <input type="radio" name="degree"/>B.tech
+        <input type="radio" name="degree"/>B.sc
+        <input type="radio" name="degree"/>B.com
+        <input type="radio" name="degree"/>BBA<br>
+        <input type="radio" name="degree"/>MCA
+        <input type="radio" name="degree"/>MBA
+        <input type="radio" name="degree"/>OTHERS<br><br> -->
+        <select name="course" id="course">
+            <option value="btech">B.Tech</option>
+            <option value="bsc">B.Sc</option>
+            <option value="mca" selected>MCA</option>
+            <option value="mba">MBA</option>
+            <option value="bcom">B.com</option>
+            <option value="bba">BBA</option>
+            <option value="others">others</option>
+        </select>
+        <p><b>language efficiency:</b></p>
+        <label for="le">english:</label>
+        <input type="range" id="le" name="languageefficiency" min="0" max="100"/><br>
+        <label for="le">hindi:</label>
+        <input type="range" id="le" name="languageefficiency" min="0" max="100"/><br>
+        <label for="le">telugu:</label>
+        <input type="range" id="le" name="languageefficiency" min="0" max="100"/><br><br>
+
+        <label for="unrl">linkedin:</label>
+        <input type="url" id="unrl" name="url"/><br><br>
+        <input type="reset" value="reset"/>
+        
+        <input type="submit" value="submit"/>
+
+    </form>
+    </div>
+</body>
+</html>
