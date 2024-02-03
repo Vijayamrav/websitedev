@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .acountcreation {
+        text-align: center;
+        border: 1px solid black;
+        height: 350px;
+        width: 500px;
+        background-color: rgb(143, 224, 224);
+      }
+      .abc {
+        padding-left: 30%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="abc">
+      <div class="acountcreation">
+        <form action="./signin.html">
+          <h1>Create account</h1>
+          <label for="fname">first name:</label>
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            required
+            autocomplete="on"
+          />
+          <label for="lname">last name:</label>
+          <input
+            type="text"
+            id="lname"
+            name="lname"
+            required
+            autocomplete="on"
+          /><br /><br />
+          <label for="mail">mailid:</label>
+          <input
+            type="mail"
+            id="mail"
+            name="email"
+            required
+            autocomplete="on"
+          />
+          <label for="pwd">password:</label>
+          <input
+            type="password"
+            id="pwd"
+            name="password"
+            required
+            autocomplete="off"
+          /><br /><br />
+          <label for="address">current address:</label>
+          <textarea id="address" name="address" rows="4"></textarea><br /><br />
+          <label><b>select your course:</b></label>
+          <select name="course">
+            <option value="mca">MCA</option>
+            <option value="mba">MBA</option>
+            <option value="mcom">Mcom</option>
+            <option>Msc</option>
+            <option>LLB</option></select
+          ><br /><br />
+          <label><b>select year:</b></label>
+          <select>
+            <option>1st year</option>
+            <option>2nd year</option>
+            <option>3rd year</option></select
+          ><br /><br />
+          <input type="submit" value="submit" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

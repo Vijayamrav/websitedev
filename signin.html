@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .formcontent {
+        text-align: center;
+        border: 1px solid black;
+        height: 300px;
+        width: 250px;
+        background-color: rgb(97, 150, 132);
+        position: absolute;
+      }
+      .main {
+        padding-left: 40%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="formcontent">
+        <form action="./login.html">
+          <h1>Sign in:</h1>
+          <label for="signin">Email or mobile phone number</label><br />
+          <input type="text" id="signin" name="credential" /><br /><br />
+          <input
+            type="submit"
+            value="continue"
+            formaction="./loginoutput.html"
+          /><br /><br />
+          <p><b>new user?</b></p>
+          <input type="submit" value="create your account" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
