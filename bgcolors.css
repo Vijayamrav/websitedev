@@ -1,0 +1,68 @@
+
+
+.maintable td{
+    height:100px;
+    width:100px;
+    text-align: center;
+}
+
+.maintable{
+    border:1px solid black;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.grey{
+    background-color: grey;
+}
+.tomato{
+    background-color: tomato;
+}
+.yellowgreen{
+    background-color: yellowgreen;
+}
+.brown{
+    background-color: brown;
+}
+.pink{
+    background-color: pink;
+}
+.blue{
+    background-color: blue;
+}
+.khaki{
+    background-color: khaki;
+}
+.royalblue{
+    background-color: royalblue;
+}
+.gold{
+    background-color: gold;
+}
+.deeppink{
+    background-color: deeppink;
+}
+.bisque{
+    background-color: bisque;
+}
+.goldnn{
+    background-color: goldenrod;
+}
+.orange{
+    background-color: orange;
+}
+.darkgreen{
+    background-color: darkgreen;
+}
+.lavender{
+    background-color: lavender;
+}
+.blueviolet{
+    background-color: blueviolet;
+}
+.green{
+    background-color: green;
+}
+tr{
+    border:1px solid black;
+}
